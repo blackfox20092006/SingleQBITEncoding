@@ -1,21 +1,21 @@
-## Quantum Image Classification on MNIST
+# Quantum Image Classification on MNIST
 
 This repository contains two Jupyter notebooks exploring different approaches to Quantum Image Classification, specifically focusing on binary classification of handwritten digits (0s and 1s) from the MNIST dataset:
 singleqbitencodingmnist.ipynb: An implementation of the 1-qubit encoding method, based on the paper "Efficient Quantum Image Classification Using Single Qubit Encoding" by Philip Easom-McCaldin et al.
 MNIST.ipynb: A more general multi-qubit Quantum Neural Network (QNN) built using Qiskit.
 
-## Installation
+# Installation
 If you can't run the MNIST.ipynb, you can try install qiskit version 1.4.2 using:
 ```python
     python.exe -m pip install qiskit==1.4.2
 ```
     
-## Project Goal
+# Project Goal
 The primary goal of this project is to:
 Replicate the single-qubit encoding methodology from the reference paper.
 Compare its performance, complexity, and characteristics against a more conventional multi-qubit QNN.
 Analyze the reasons behind the observed performance differences between our replications and the paper's results, as well as between the two different quantum approaches.
-#Analysis and Comparison
+# Analysis and Comparison
 We compare the two implemented quantum image classification methods based on their performance, complexity, strengths, weaknesses, and the underlying reasons for their observed effectiveness.
 1. singleqbitencodingmnist.ipynb (1-Qubit Encoding based on Paper)
     This notebook implements the single-qubit encoding strategy described in "Efficient Quantum Image Classification Using Single Qubit Encoding" (Easom-McCaldin et al., 2024).
