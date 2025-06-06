@@ -1,4 +1,4 @@
-# Quantum Image Classification on MNIST
+# Quantum Image Classification on MNIST using 1 QBit
 
 This repository contains two Jupyter notebooks exploring different approaches to Quantum Image Classification, specifically focusing on binary classification of handwritten digits (0s and 1s) from the MNIST dataset:
 singleqbitencodingmnist.ipynb: An implementation of the 1-qubit encoding method, based on the paper "Efficient Quantum Image Classification Using Single Qubit Encoding" by Philip Easom-McCaldin et al.
